@@ -6,13 +6,13 @@ from PIL import Image
 import numpy as np
 import pickle as p
 import tensorflow.keras.models as models
-ANN=models.load_model("mae_1.6(0.11)_similar")
-with open("scaler.pkl",'rb') as f2:
+ANN=models.load_model("models/Hemoglobin_predictor")
+with open("models/input_scaler.pkl",'rb') as f2:
     scaler=p.load(f2)
-with open("tar_scaler.pkl",'rb') as f1:
+with open("models/output_scaler.pkl",'rb') as f1:
     tar_scaler=p.load(f1)
 app=FastAPI()
-model=YOLO("eye_seg_model.pt")
+model=YOLO("models/eye_seg_model.pt")
 cache='image.jpeg'
 @app.post("/predict/")
 async def predict(file:UploadFile=File(...)):
