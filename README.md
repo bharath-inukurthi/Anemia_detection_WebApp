@@ -8,7 +8,7 @@ The **Anemia Detection Web App** is a powerful and user-friendly tool designed t
 - **Hemoglobin Level Estimation:** Employs an ANN model to predict hemoglobin levels based on segmented image data.  
 - **Real-time Processing:** Ensures fast and reliable results for user convenience.  
 - **Interactive UI:** Built with Gradio for an intuitive and seamless user experience.  
-- **Backend Optimization:** FastAPI ensures efficient handling of image inference requests.  
+- **Backend Optimization:** FastAPI ensures efficient handling of image inference requests.
 
 
  
