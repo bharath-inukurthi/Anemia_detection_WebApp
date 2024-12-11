@@ -76,6 +76,7 @@ Start the FastAPI first
   uvicorn anemia_classification:app
 ```
 Launch the WebApp interface
+
 **NOTE** : run both above and belowe commands in 2 different terminals as both will give you urls to work with
 
 ```bash
