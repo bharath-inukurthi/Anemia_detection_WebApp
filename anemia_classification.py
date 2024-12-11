@@ -6,7 +6,7 @@ from PIL import Image
 import numpy as np
 import pickle as p
 import tensorflow.keras.models as models
-ANN=models.load_model("models/Hemoglobin_predictor")
+ANN=models.load_model("models/Hemoglobin_predictor.h5")
 with open("models/input_scaler.pkl",'rb') as f2:
     scaler=p.load(f2)
 with open("models/output_scaler.pkl",'rb') as f1:
