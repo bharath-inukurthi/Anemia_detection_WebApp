@@ -48,3 +48,49 @@ I recommend you to create a virtual environment to avoid compatibilty issues
 
 
 
+# Run Locally
+
+Clone the project
+
+
+
+```bash
+  git clone https://github.com/bharath-inukurthi/Anemia_detection_WebApp.git
+```
+
+Go to the project directory
+
+```bash
+  cd Anemia_detection_WebApp
+```
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Start the FastAPI first
+
+```bash
+  uvicorn anemia_classification:app
+```
+Launch the WebApp interface
+**NOTE** : run both above and belowe commands in 2 different terminals as both will give you urls to work with
+
+```bash
+  python gradioApp.py
+```
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at bharathinukurthi1@gmail.com
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://everything-about-bharath.webflow.io/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bharath-kumar-inukurthi/)
+
+
