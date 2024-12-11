@@ -12,3 +12,39 @@ The **Anemia Detection Web App** is a powerful and user-friendly tool designed t
 
 
  
+# Create a virtual environment
+
+I recommend you to create a virtual environment to avoid compatibilty issues
+
+### macOS/Linux (using Python's venv):
+```bash
+  python3.11 -m venv anemia_detection
+```
+
+```bash
+  source anemia_detection/bin/activate
+```
+### Windows (using Python's venv):
+
+```bash
+  python3.11 -m venv anemia_detection
+```
+
+```bash
+  anemia_detection\Scripts\activate
+```
+
+
+### Using conda:
+```bash
+  conda create -n anemia_detection python=3.11
+```
+
+
+
+```bash
+  conda activate anemia_detection
+```
+
+
+
