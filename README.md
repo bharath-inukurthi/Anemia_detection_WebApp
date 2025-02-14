@@ -1,6 +1,5 @@
 # Anemia Detection Web App  
 
-## Introduction  
 The **Anemia Detection Web App** is a powerful and user-friendly tool designed to identify anemia and estimate hemoglobin levels through conjunctiva images. Leveraging advanced computer vision techniques and machine learning models like YOLO for segmentation and ANN for regression, this application provides quick and accurate results. Its primary goal is to assist users in monitoring their health effortlessly and in real-time.
 
 ## Features  
